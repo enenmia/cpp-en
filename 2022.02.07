@@ -1,0 +1,23 @@
+#include <iostream>
+
+int main() {
+  
+  int score = 0;//initialize
+  score = 1234*99;//new value,remember to add ;
+  std::cout<< score <<"\n";//cout not count, means "print"
+  
+  return 0;//end main
+
+
+}
+
+/*output
+g++ filename.cpp
+./a.out
+
+or
+
+g++ filename.cpp -o newname
+./newname
+*/
+
