@@ -1,0 +1,22 @@
+#include <iostream>
+
+int main() {
+  
+  double tempf=43.0;
+  //declare and initialize. Remember 43 is not ok
+  double tempc;
+  //declare
+  tempc=(tempf-32)/1.8;
+  //calculate and store. 32 needn't to be a double
+
+  std::cout<<"The temp is "<<tempc<<" degrees Celsius.\n";
+  //notice the direction of "<<", which can mean "to be valued by" and "link"
+
+ }
+ 
+ 
+/*terminal
+$ g++ temperature.cpp
+$ ./a.out
+The temp is 6.11111 degrees Celsius.
+*/
